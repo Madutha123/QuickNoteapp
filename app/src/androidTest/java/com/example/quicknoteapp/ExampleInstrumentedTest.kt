@@ -1,4 +1,4 @@
-package com.example.notenestapp
+package com.example.quicknoteapp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

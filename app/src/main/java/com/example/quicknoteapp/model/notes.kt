@@ -1,4 +1,4 @@
-package com.example.notenestapp.model
+package com.example.quicknoteapp.model
 
 import android.os.Parcelable
 import androidx.room.Entity

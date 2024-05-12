@@ -1,9 +1,9 @@
-package com.example.notenestapp.viewmodel
+package com.example.quicknoteapp.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.notenestapp.repository.NoteRepository
+import com.example.quicknoteapp.repository.NoteRepository
 
 //A class initiate and return note model
 class NoteViewModelFactory(val app : Application,private  val noteRepository: NoteRepository):ViewModelProvider.Factory{

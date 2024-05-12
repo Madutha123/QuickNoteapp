@@ -1,4 +1,4 @@
-package com.example.notenestapp.fragments
+package com.example.quicknoteapp.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -13,11 +13,11 @@ import androidx.core.view.MenuHost
 import androidx.core.view.MenuProvider
 import androidx.lifecycle.Lifecycle
 import androidx.navigation.findNavController
-import com.example.notenestapp.MainActivity
-import com.example.notenestapp.R
-import com.example.notenestapp.databinding.FragmentAddNoteBinding
-import com.example.notenestapp.model.Notes
-import com.example.notenestapp.viewmodel.NoteViewModel
+import com.example.quicknoteapp.MainActivity
+import com.example.quicknoteapp.R
+import com.example.quicknoteapp.databinding.FragmentAddNoteBinding
+import com.example.quicknoteapp.model.Notes
+import com.example.quicknoteapp.viewmodel.NoteViewModel
 
 class AddNoteFragment : Fragment(R.layout.fragment_add_note), MenuProvider{
 
@@ -31,7 +31,7 @@ class AddNoteFragment : Fragment(R.layout.fragment_add_note), MenuProvider{
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        // Inflate the layout for this fragment
+
         addNoteBinding = FragmentAddNoteBinding.inflate(inflater,container,false)
         return binding.root
     }

@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.notenestapp"
+    namespace = "com.example.quicknoteapp"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.notenestapp"
+        applicationId = "com.example.quicknoteapp"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.notenestapp.fragments.HomeFragment"
+        android:name="com.example.quicknoteapp.fragments.HomeFragment"
         android:label="HomeFragment" >
         <action
             android:id="@+id/action_homeFragment_to_addNoteFragment"
@@ -17,7 +17,7 @@
     </fragment>
     <fragment
         android:id="@+id/addNoteFragment"
-        android:name="com.example.notenestapp.fragments.AddNoteFragment"
+        android:name="com.example.quicknoteapp.fragments.AddNoteFragment"
         android:label="AddNoteFragment" >
         <action
             android:id="@+id/action_addNoteFragment_to_homeFragment"
@@ -25,7 +25,7 @@
     </fragment>
     <fragment
         android:id="@+id/editNoteFragment"
-        android:name="com.example.notenestapp.fragments.EditNoteFragment"
+        android:name="com.example.quicknoteapp.fragments.EditNoteFragment"
         android:label="EditNoteFragment" >
         <action
             android:id="@+id/action_editNoteFragment_to_homeFragment"
@@ -33,7 +33,7 @@
 
         <argument
             android:name="notes"
-            app:argType="com.example.notenestapp.model.Notes"
+            app:argType="com.example.quicknoteapp.model.Notes"
             app:nullable="true"/>
     </fragment>
 </navigation>

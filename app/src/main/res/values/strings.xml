@@ -7,10 +7,11 @@
     <string name="noteData">Enter the description</string>
     <string name="addNoteTitle">Enter the title</string>
     <string name="add_note">Add Note.</string>
+    <string name="enter_the_title">Enter the title</string>
     <string name="enter_the_description">Enter the description</string>
     <string name="editfab">editFab</string>
-    <string name="enter_the_title">Enter the title</string>
+    <string name="note_title">Note Title</string>
     <string name="edit_note">Edit Note.</string>
     <string name="description">Description</string>
-    <string name="note_title">Note Title</string>
+
 </resources>

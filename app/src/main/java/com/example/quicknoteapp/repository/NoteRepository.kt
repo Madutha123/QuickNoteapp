@@ -1,7 +1,7 @@
-package com.example.notenestapp.repository
+package com.example.quicknoteapp.repository
 
-import com.example.notenestapp.database.NoteDatabase
-import com.example.notenestapp.model.Notes
+import com.example.quicknoteapp.database.NoteDatabase
+import com.example.quicknoteapp.model.Notes
 
 class NoteRepository(private val db : NoteDatabase){
 

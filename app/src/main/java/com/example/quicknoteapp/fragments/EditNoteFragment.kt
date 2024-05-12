@@ -1,4 +1,4 @@
-package com.example.notenestapp.fragments
+package com.example.quicknoteapp.fragments
 
 import android.app.AlertDialog
 import android.os.Bundle
@@ -15,11 +15,11 @@ import androidx.core.view.MenuProvider
 import androidx.lifecycle.Lifecycle
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.navArgs
-import com.example.notenestapp.MainActivity
-import com.example.notenestapp.R
-import com.example.notenestapp.databinding.FragmentEditNoteBinding
-import com.example.notenestapp.model.Notes
-import com.example.notenestapp.viewmodel.NoteViewModel
+import com.example.quicknoteapp.MainActivity
+import com.example.quicknoteapp.R
+import com.example.quicknoteapp.databinding.FragmentEditNoteBinding
+import com.example.quicknoteapp.model.Notes
+import com.example.quicknoteapp.viewmodel.NoteViewModel
 
 class EditNoteFragment : Fragment(R.layout.fragment_edit_note), MenuProvider{
 

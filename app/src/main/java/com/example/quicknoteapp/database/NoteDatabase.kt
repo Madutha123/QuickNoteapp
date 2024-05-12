@@ -1,10 +1,10 @@
-package com.example.notenestapp.database
+package com.example.quicknoteapp.database
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.example.notenestapp.model.Notes
+import com.example.quicknoteapp.model.Notes
 
 
 @Database(entities = [Notes::class], version = 1)
@@ -13,16 +13,15 @@ import com.example.notenestapp.model.Notes
         abstract fun getNoteDao(): NoteDao
 
         companion object{
-            //Make sure changes made by one thread can be seen by other
+
             @Volatile
             private var instance:NoteDatabase? = null
-            //Lock ensure only one thread execute inside syn block and create a database instance
+
             private val LOCK = Any()
 
-            //create notes database instance
-            //singleton ensure that only one object is created
+
             operator fun invoke(context: Context) = instance ?:
-            //Only one thread access
+
             synchronized(LOCK){
                 instance ?:
                 createDatabase(context).also{

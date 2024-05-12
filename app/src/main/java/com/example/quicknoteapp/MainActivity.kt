@@ -1,12 +1,12 @@
-package com.example.notenestapp
+package com.example.quicknoteapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
-import com.example.notenestapp.database.NoteDatabase
-import com.example.notenestapp.repository.NoteRepository
-import com.example.notenestapp.viewmodel.NoteViewModel
-import com.example.notenestapp.viewmodel.NoteViewModelFactory
+import com.example.quicknoteapp.database.NoteDatabase
+import com.example.quicknoteapp.repository.NoteRepository
+import com.example.quicknoteapp.viewmodel.NoteViewModel
+import com.example.quicknoteapp.viewmodel.NoteViewModelFactory
 
 class MainActivity : AppCompatActivity() {
 
